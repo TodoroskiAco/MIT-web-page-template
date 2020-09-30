@@ -1,0 +1,174 @@
+/* Home page style */
+.jumbotron{
+    margin-top: 10px;
+    background-image: url("https://www.careergirls.org/wp-content/uploads/2015/06/Computer_Programmer1920X10180.jpg");
+    background-size: cover;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #75b4f3;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid;
+    border-color:  #75b4f3;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: black;
+    background-color: #fff;
+    border-color: #75b4f3 #75b4f3  #b9d5f1;
+}
+
+/* About page style */
+
+
+
+
+/* Contct page style */
+.page-header
+{
+  margin-top:0px;
+  margin-bottom:0px;
+  padding:100px 0px 64px 0px;
+  color:#1D1F20;
+}
+
+.heading-title ,.heading-sub-title
+{
+  font-family: 'Sorts Mill Goudy', serif;
+  text-align:center;
+}
+.heading-title
+{
+  font-size:72px;
+}
+.heading-sub-title
+{
+  font-size:16px;
+  color:#23527c;
+  margin-bottom:64px;
+}
+
+.row.text-center{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+}
+
+#contact
+{
+  background-color:#23527c;
+  color:#eee;
+}
+#contact .heading-sub-title
+{
+  color:#ddd;
+}
+
+#contact button:focus 
+{
+  outline:0 !important;
+}
+
+.btn-portfolio { 
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight:bold;
+  padding:15px;
+  color:#23527c;
+  background-color: #aaa; 
+  border-color: #aaa; 
+  border-radius:25px;
+  margin:15px;
+} 
+ 
+.btn-portfolio:hover, 
+.btn-portfolio:focus, 
+.btn-portfolio:active, 
+.btn-portfolio.active, 
+.open .dropdown-toggle.btn-portfolio { 
+ 
+  border-radius:25px;
+  color:#23527c;
+  background:#ddd;
+  border-color: #ddd;
+} 
+ 
+.btn-portfolio:active, 
+.btn-portfolio.active, 
+.open .dropdown-toggle.btn-portfolio { 
+  background-image: none; 
+  border-radius:25px;
+
+} 
+ 
+.btn-portfolio.disabled, 
+.btn-portfolio[disabled], 
+fieldset[disabled] .btn-portfolio, 
+.btn-portfolio.disabled:hover, 
+.btn-portfolio[disabled]:hover, 
+fieldset[disabled] .btn-portfolio:hover, 
+.btn-portfolio.disabled:focus, 
+.btn-portfolio[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-portfolio.disabled:active, 
+.btn-portfolio[disabled]:active, 
+fieldset[disabled] .btn-portfolio:active, 
+.btn-portfolio.disabled.active, 
+.btn-portfolio[disabled].active, 
+fieldset[disabled] .btn-portfolio.active { 
+  background-color: #23527c; 
+  border-color: #23527c; 
+  border-radius:25px;
+} 
+ 
+.btn-portfolio .badge { 
+  color: #23527c; 
+  background-color: #fff;
+  border-radius:25px;
+
+}
+
+.modal-body,.modal-content,.modal-header
+{
+  background-color:#eee;
+  color: #23527c;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size:14px;
+   border-radius:25px;
+ }
+.modal-header
+{
+  font-size:16px;
+ }
+
+.modal-body
+{
+  padding:20px;
+  font-weight:bold;
+  font-size:32px;
+  text-align:center !important;
+}
+.modal-body img
+{
+  height:64px;
+  width:128px;
+  border:solid 2px #ddd;
+  border-radius:20px;
+  padding:10px;
+  opacity:0.7;
+}
+
+.modal-body a
+{
+  margin:7px;
+  padding:10px;
+  border:1px solid #eee;
+  border-radius:50%;
+  
+   
+}
